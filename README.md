@@ -24,7 +24,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 - Trasmissione            -> ( VARCHAR(20) | NOT NULL )
 - km ( Usato )            -> ( INT | DEFAULT ( 0 ) )
 - Colore                  -> ( VARCHAR(50) | NULL )
-- Prezo                   -> ( DECIMAL(10,2) | NOT NULL )
+- Prezzo                   -> ( DECIMAL(10,2) | NOT NULL )
 - Stato                   -> ( VARCHAR(20) | INDEX | NULL )
 - Condizioni              -> ( VARCHAR(50) | NULL )
 - Descrizione             -> ( TEXT | NULL )
